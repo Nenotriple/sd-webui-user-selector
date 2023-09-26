@@ -2,7 +2,7 @@
 Select command line arguments upon starting the sd-webui
 
 For more information on command line arguments that can be used in this .bat file, please refer to this wiki page.
-https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Command-Line-Arguments-and-Settings
+[https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Command-Line-Arguments-and-Settings](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Command-Line-Arguments-and-Settings#all-command-line-arguments)
 
 # How to Edit/Add/Remove Options
 
