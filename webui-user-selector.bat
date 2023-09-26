@@ -7,8 +7,8 @@ set VENV_DIR=
 echo Please select an option:
 
 echo 1) xformers                        (Fastest)
-echo 2) xformers + medvram              (Slower, upscale larger images)
-echo 3) xformers + lowvram              (Slowest, least limited)
+echo 2) xformers + medvram              (Slower)
+echo 3) xformers + lowvram              (Slowest)
 echo 4) Update                          (git pull, reinstall xformers, reinstall torch)
 
 choice /C 1234 /N /M "Choice (1-4): "
