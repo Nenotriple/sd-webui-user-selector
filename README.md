@@ -1,6 +1,8 @@
 # webui-user-selector.bat
 Select command line arguments upon starting the sd-webui
 
+![webui-user-selector_example](https://github.com/Nenotriple/webui-user-selector/assets/70049990/6a82b5fa-529e-4570-baf2-135b3368818d)
+
 For more information on command line arguments that can be used in this .bat file, please refer to this wiki page.
 [https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Command-Line-Arguments-and-Settings](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Command-Line-Arguments-and-Settings#all-command-line-arguments)
 
