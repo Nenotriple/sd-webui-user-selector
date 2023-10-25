@@ -6,15 +6,15 @@ set VENV_DIR=
 
 echo Please select an option:
 
-echo 1) xformers                        (Fastest)
-echo 2) xformers + medvram              (Slower)
-echo 3) xformers + lowvram              (Slowest)
-echo 4) Update                          (git pull, reinstall xformers, reinstall torch)
+echo 1) xformers (Fastest)
+echo 2) xformers + medvram (Slower)
+echo 3) xformers + lowvram (Slowest)
+echo 4) Update (git pull, reinstall xformers, reinstall torch)
 
 choice /C 1234 /N /M "Choice (1-4): "
 
 if errorlevel 4 (
-    echo Updating...
+    echo Starting...
     set COMMANDLINE_ARGS= --reinstall-xformers --reinstall-torch --xformers
     call git pull
 ) else if errorlevel 3 (
