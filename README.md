@@ -1,18 +1,31 @@
 # webui-user-selector.bat
-Select command line arguments when starting AUTOMATIC1111's sd-webui
+Select command-line arguments when starting AUTOMATIC1111's sd-webui
 
 ![webui-user-selector_example](https://github.com/Nenotriple/webui-user-selector/assets/70049990/6a82b5fa-529e-4570-baf2-135b3368818d)
 
-For more information on command line arguments that can be used in this .bat file, please refer to this wiki page.
-[https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Command-Line-Arguments-and-Settings](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Command-Line-Arguments-and-Settings#all-command-line-arguments)
+For more information on command-line arguments that can be used in this .bat file, please refer to this wiki page.
+
+[AUTOMATIC1111 sd-webui - Command-Line Arguments and Settings](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Command-Line-Arguments-and-Settings#all-command-line-arguments)
 
 # How to use
 
-Simply place the webui-user-selector.bat file in the "stable-diffusion-webui" folder and double click it.
+Simply place the webui-user-selector.bat file in the "stable-diffusion-webui" folder and double-click it.
 
 *(There's no need to replace the original webui-user.bat file)*
 
-# Edit/Add/Remove Options
+# 🍰 _EASY WAY:_ Edit/Add/Remove Options
+
+1. Download the included Python script `webui-user-selector_EDITOR.py`, and run it once to create the settings template.
+
+2. Edit the `webui-user-selector_settings.txt` file with the options you want.
+   - Follow the provided pattern (it's easy).
+   - You can simply copy the `Option` blocks or delete them; just make sure they're numbered correctly.
+   - Use `AND` to run another command, like `call git pull`.
+
+3. When you're done, run the Python script again to create/edit the `webui-user-selector.bat` file.
+
+
+# ⛰️ _HARD WAY:_ Edit/Add/Remove Options
 
 **Understanding the .bat File**
 
