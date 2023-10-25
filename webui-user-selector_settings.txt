@@ -1,0 +1,24 @@
+# This is where you can easily add/remove/edit options within the "webui-user-selector.bat" file.
+# It's important to keep the formatting exactly the same if adding/removing/editing this settings file.
+# You can use AND to run a separate command. Like "call git pull" to update.
+
+OPTION 1:
+- NAME: xformers
+- COMMANDLINE_ARGS: --xformers
+- DESCRIPTION: Fastest
+
+OPTION 2:
+- NAME: xformers + medvram
+- COMMANDLINE_ARGS: --xformers --medvram
+- DESCRIPTION: Slower
+
+OPTION 3:
+- NAME: xformers + lowvram
+- COMMANDLINE_ARGS: --xformers --lowvram
+- DESCRIPTION: Slowest
+
+OPTION 4:
+- NAME: Update
+- COMMANDLINE_ARGS: --reinstall-xformers --reinstall-torch --xformers
+- DESCRIPTION: git pull, reinstall xformers, reinstall torch
+- AND: call git pull
